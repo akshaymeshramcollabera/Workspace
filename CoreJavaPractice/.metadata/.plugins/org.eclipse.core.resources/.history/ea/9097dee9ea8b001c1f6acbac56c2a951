@@ -1,0 +1,22 @@
+package programs;
+
+class Counter{
+	int i = 0;
+    Counter increment()
+    {
+        i++;
+        return this;
+    }
+    void print()
+    {    
+    	System.out.println ("i = " + i);
+    }
+}
+public class CounterDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package programs;
+
+public class TestBook {
+	String title,author;
+    private void setTitle(String title)
+    {     
+    	this.title = title;
+    }
+    private void setAuthor(String author)
+    {     
+    	this.author=author;
+    }
+    private String getTitle() { return title; }
+    private String getAuthor() { return author; }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

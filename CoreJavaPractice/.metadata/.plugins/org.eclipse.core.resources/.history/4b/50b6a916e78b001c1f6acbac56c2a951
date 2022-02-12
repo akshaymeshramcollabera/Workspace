@@ -1,0 +1,22 @@
+package programs;
+
+class X
+{   
+	int i, j;
+}
+class Y
+{    
+	int i, j;
+}
+class Z extends X
+{    
+	int k;
+}
+public class ComparisonOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

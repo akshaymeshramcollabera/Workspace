@@ -1,0 +1,18 @@
+package string;
+
+import java.io.*;
+
+public class StringBuffer123 {
+
+	public static void main(String[] args) {
+		 StringBuffer123 s1,s2,s3;
+         s1=new StringBuffer123();
+         s2=new StringBuffer123 ("I LOVE MY INDIA");
+         s3=new StringBuffer123(50);
+         System.out.println(s1.capacity());
+         System.out.println(s2.capacity());
+         System.out.println(s3.capacity());
+         System.out.println(s1.capacity()+s2.capacity()+s3.capacity());
+	}
+
+}

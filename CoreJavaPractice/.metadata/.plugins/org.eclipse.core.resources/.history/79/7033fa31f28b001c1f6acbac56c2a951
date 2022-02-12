@@ -1,0 +1,20 @@
+package programs;
+
+class Constdemo
+{    int x,y,z;
+	Constdemo() { x=y=z=1; }   // default constructor
+	Constdemo(int a) { x=y=z=a; }     // parameterized constructor
+	Constdemo(int p,int q,int r) { x=p; y=q; z=r; }   // param. Constructor
+	Constdemo(Constdemo p) {x = p.x; y=p.y;  z=p.z; } //copy constructor
+	void sum()
+	{    
+		System.out.println("sum of the values:"+ (x+y+z));
+	}
+}
+public class ConstructDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

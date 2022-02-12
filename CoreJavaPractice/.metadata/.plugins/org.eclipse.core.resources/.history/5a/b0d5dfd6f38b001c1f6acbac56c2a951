@@ -1,0 +1,22 @@
+package basic;
+
+class static1
+{   
+	static int c=0;
+    void increment()
+    {    
+    	c++;
+    }
+    void display()
+    {    
+    	System.out.println("Value="+c);
+    }
+}
+public class StaticClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

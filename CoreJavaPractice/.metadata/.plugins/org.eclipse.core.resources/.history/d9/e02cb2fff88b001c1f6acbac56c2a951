@@ -1,0 +1,14 @@
+package string;
+
+public class StDemo {
+
+	public static void main(String[] args) {
+		StringBuffer123 strBuf1 = new StringBuffer123("SRI");
+        StringBuffer123 strBuf2 = new StringBuffer123(100);
+        StringBuffer123 strBuf3 = new StringBuffer123();
+        System.out.println("strBuf1 : " + strBuf1);
+        System.out.println("strBuf2 capacity:"+strBuf2.capacity());
+        System.out.println("strBuf3 capacity:"+strBuf3.capacity());
+	}
+
+}

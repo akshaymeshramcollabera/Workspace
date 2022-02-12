@@ -1,0 +1,22 @@
+package string;
+
+import java.util.Scanner;
+
+public class LengthSb {
+	static String s;
+	public static void main(String[] args) {
+		s = new String();
+        StringBuffer123 sb1 = new StringBuffer123();
+        StringBuffer123 sb2 = new StringBuffer123("java");
+        StringBuffer123 sb3 = new StringBuffer123(40);
+        Scanner scn=new Scanner(System.in);
+        System.out.println("enter a string");
+        s = scn.nextLine();
+        System.out.println("  "+s);
+        System.out.println("length:"+s.length());
+        System.out.println("capacity:"+sb1.capacity());
+        System.out.println("capacity:"+sb2.capacity());
+        System.out.println("capacity:"+sb3.capacity());
+	}
+
+}

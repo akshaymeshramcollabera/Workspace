@@ -1,0 +1,22 @@
+package programs;
+
+class Check
+{   
+	private int amount=0;
+    public int getAmount()
+    {
+        return amount;
+    }
+    public void setAmount(int amt)
+    {
+        amount=amt;
+    }
+}
+public class EncapsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
